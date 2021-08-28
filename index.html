@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TODO Manager</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h2 class="todo__caption">TODO Manager</h2>
+
+    <div id="tdlApp">
+        <label>
+            <input maxlength="35" type="text" class="form-control" placeholder="New task">
+        </label>
+        <div class="tdlDiv">
+            <ul class="List list-unstyled">
+            </ul>
+        </div>
+    </div>
+    <button class="clear_tasks">
+        <img src="img/clear.png" style="vertical-align: middle" alt="Clear icon">
+        Clear tasks
+    </button>
+
+    <button class="switch_theme">Switch theme</button>
+</div>
+
+<script src="lib/jquery-3.4.1.min.js"></script>
+<script src="lib/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
